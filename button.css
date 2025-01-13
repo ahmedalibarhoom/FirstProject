@@ -8,7 +8,7 @@
   border-radius: 2px;
 }
 .join-btn {
-  background-color: white;
+  background-color: white; cursor: pointer;
 }
 .tweet-btn {
   background-color: blue;

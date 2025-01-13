@@ -1,2 +1,9 @@
-p{background-color: height: 35px;width: 50px; color: aqua; }
-button {border: none; color: aquamarine; background-color: rgb(25, 5, 56);}
+p {
+  background-color: antiquewhite;
+}
+button {
+  border: none;
+  color: aquamarine;
+  background-color: rgb(25, 5, 56);
+  height: auto;
+}

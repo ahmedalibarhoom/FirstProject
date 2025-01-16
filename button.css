@@ -7,7 +7,21 @@
   cursor: pointer;
   border-radius: 2px;
   margin-right: 8px;
+  transition: opacity 0.15s;
 }
+
+/*.sub-btn:hover{background-color: blue;}
+to add new colors just  now let us see how to make the buttos lighter and darker just
+.sub-btn:active{background-color: brown;}*/
+
+.sub-btn:hover {
+  opacity: 0.5;
+}
+
+.sub-btn:active {
+  opacity: 0.4;
+}
+
 .join-btn {
   background-color: white;
   cursor: pointer;
@@ -19,6 +33,17 @@
   width: 62px;
   border-radius: 2px;
   margin-right: 8px;
+  font-weight: bold;
+  transition: background-color 3s, color 3s;
+}
+
+.join-btn:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join-btn:active {
+  opacity: 0.5;
 }
 
 .tweet-btn {
@@ -31,5 +56,14 @@
   font-weight: bold;
   font-size: 15px;
   cursor: pointer;
+  transition: background-color 0.15s;
+  transition: box-shadow 0.15s;
+}
 
+.tweet-btn:active {
+  background-color: blue;
+}
+
+.tweet-btn:hover {
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
